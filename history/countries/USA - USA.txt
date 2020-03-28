@@ -1,0 +1,82 @@
+﻿capital = 361
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communist = 5
+	socialist = 16
+	liberal = 35
+	conservative = 41
+	authoritarian = 0
+	ultranationalist = 3
+}
+
+create_country_leader = {
+	name = "Earl Browder"
+	desc = ""
+	picture = "Earl_Browder.png"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Franklin D. Roosevelt"
+	desc = ""
+	picture = "Franklin_D_Roosevelt.png"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "James Wolcott Wadsworth Jr."
+	desc = ""
+	picture = "James_Wolcott_Wadsworth_Jr.png"
+	expire = "1965.1.1"
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Harry F. Byrd"
+	desc = ""
+	picture = "Harry_F_Byrd.png"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Smedley Butler"
+	desc = ""
+	picture = "Smedley_Butler.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "William Dudley Pelley"
+	desc = ""
+	picture = "William_Dudley_Pelley.png"
+	expire = "1965.1.1"
+	ideology = ultranationalist_subtype
+	traits = {
+		#
+	}
+}
