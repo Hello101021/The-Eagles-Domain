@@ -118,6 +118,8 @@ ideologies = {
 	ultranationalist = {
 		types = {
 			ultranationalist_subtype = {}
+
+			british_fascist = {}
 		}
 		dynamic_faction_names = {
 			#

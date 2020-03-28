@@ -1,26 +1,81 @@
 ﻿capital = 126
 
 set_politics = {
-	ruling_party = communist
+	ruling_party = ultranationalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communist = 17
-	socialist = 17
-	liberal = 17
-	conservative = 17
-	authoritarian = 16
-	ultranationalist = 16
+	communist = 0
+	socialist = 18
+	liberal = 13
+	conservative = 19
+	authoritarian = 11
+	ultranationalist = 39
 }
 
 create_country_leader = {
-	name = "Placeholder"
+	name = "Albert Inkpin"
 	desc = ""
-	picture = "Placeholder.png"
+	picture = "Albert_Inkpin.png"
 	expire = "1965.1.1"
 	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edward VIII"
+	desc = ""
+	picture = "Edward_VIII.png"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edward VIII"
+	desc = ""
+	picture = "Edward_VIII.png"
+	expire = "1965.1.1"
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edward VIII"
+	desc = ""
+	picture = "Edward_VIII.png"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edward VIII"
+	desc = ""
+	picture = "Edward_VIII.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edward VIII"
+	desc = ""
+	picture = "Edward_VIII.png"
+	expire = "1965.1.1"
+	ideology = british_fascist
 	traits = {
 		#
 	}

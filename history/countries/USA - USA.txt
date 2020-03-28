@@ -1,5 +1,12 @@
 ﻿capital = 361
 
+add_ideas = {
+	USA_great_depression
+	USA_leftist_dissatisfaction
+	USA_land_of_the_free
+	USA_american_imperialism
+}
+
 set_politics = {
 	ruling_party = conservative
 	last_election = "1936.1.1"
