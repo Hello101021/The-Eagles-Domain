@@ -1,0 +1,63 @@
+ideas = {
+
+	country = {
+		ENG_uneasy_establishment = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				drift_defence_factor = -0.25
+			}
+		}
+
+		ENG_fascist_infighting = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.5
+			}
+		}
+
+		ENG_rampant_nationalism = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.15
+				conscription_factor = 0.15
+			}
+		}
+
+		ENG_economic_unsteadiness = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factory = -0.05
+			}
+		}
+	}
+}

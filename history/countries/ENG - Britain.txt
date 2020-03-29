@@ -1,5 +1,16 @@
 ﻿capital = 126
 
+set_research_slots = 4
+set_stability = 0.65
+set_war_support = 0.4
+
+add_ideas = {
+	ENG_uneasy_establishment
+	ENG_fascist_infighting
+	ENG_rampant_nationalism
+	ENG_economic_unsteadiness
+}
+
 set_politics = {
 	ruling_party = ultranationalist
 	last_election = "1936.1.1"
@@ -7,18 +18,18 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communist = 0
+	communist = 5
 	socialist = 18
 	liberal = 13
 	conservative = 19
-	authoritarian = 11
+	authoritarian = 6
 	ultranationalist = 39
 }
 
 create_country_leader = {
 	name = "Albert Inkpin"
 	desc = ""
-	picture = "Albert_Inkpin.png"
+	picture = "George_V.png"
 	expire = "1965.1.1"
 	ideology = communist_subtype
 	traits = {
@@ -27,9 +38,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward VIII"
-	desc = ""
-	picture = "Edward_VIII.png"
+	name = "George V"
+	desc = "POLITICS_GEORGE_V_DESC"
+	picture = "George_V.png"
 	expire = "1965.1.1"
 	ideology = socialist_subtype
 	traits = {
@@ -38,9 +49,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward VIII"
-	desc = ""
-	picture = "Edward_VIII.png"
+	name = "George V"
+	desc = "POLITICS_GEORGE_V_DESC"
+	picture = "George_V.png"
 	expire = "1965.1.1"
 	ideology = liberal_subtype
 	traits = {
@@ -49,9 +60,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward VIII"
-	desc = ""
-	picture = "Edward_VIII.png"
+	name = "George V"
+	desc = "POLITICS_GEORGE_V_DESC"
+	picture = "George_V.png"
 	expire = "1965.1.1"
 	ideology = conservative_subtype
 	traits = {
@@ -60,9 +71,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward VIII"
-	desc = ""
-	picture = "Edward_VIII.png"
+	name = "George V"
+	desc = "POLITICS_GEORGE_V_DESC"
+	picture = "George_V.png"
 	expire = "1965.1.1"
 	ideology = authoritarian_subtype
 	traits = {
@@ -71,12 +82,12 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edward VIII"
-	desc = ""
-	picture = "Edward_VIII.png"
+	name = "George V"
+	desc = "POLITICS_GEORGE_V_DESC"
+	picture = "George_V.png"
 	expire = "1965.1.1"
 	ideology = british_fascist
 	traits = {
-		#
+		unsupportive_king
 	}
 }
