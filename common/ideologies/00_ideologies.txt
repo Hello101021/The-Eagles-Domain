@@ -26,6 +26,8 @@ ideologies = {
 	socialist = {
 		types = {
 			socialist_subtype = {}
+
+			democratic_socialist = {}
 		}
 		dynamic_faction_names = {
 			#

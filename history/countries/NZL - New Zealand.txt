@@ -1,26 +1,48 @@
 ﻿capital = 284
 
 set_politics = {
-	ruling_party = communist
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communist = 17
-	socialist = 17
-	liberal = 17
-	conservative = 17
-	authoritarian = 16
-	ultranationalist = 16
+	communist = 3
+	socialist = 55
+	liberal = 16
+	conservative = 20
+	authoritarian = 0
+	ultranationalist = 6
 }
 
 create_country_leader = {
-	name = "Placeholder"
+	name = "Fintan Patrick Walsh"
 	desc = ""
-	picture = "Placeholder.png"
+	picture = "Fintan_Patrick_Walsh.png"
 	expire = "1965.1.1"
 	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bob Semple"
+	desc = ""
+	picture = "Bob_Semple.png"
+	expire = "1965.1.1"
+	ideology = democratic_socialist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Robert Campbell Begg"
+	desc = ""
+	picture = "Robert_Campbell_Begg.png"
+	expire = "1965.1.1"
+	ideology = ultranationalist_subtype
 	traits = {
 		#
 	}
