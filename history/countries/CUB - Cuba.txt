@@ -1,26 +1,48 @@
 ﻿capital = 315
 
 set_politics = {
-	ruling_party = communist
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communist = 17
-	socialist = 17
-	liberal = 17
-	conservative = 17
-	authoritarian = 16
-	ultranationalist = 16
+	communist = 10
+	socialist = 18
+	liberal = 12
+	conservative = 11
+	authoritarian = 22
+	ultranationalist = 27
 }
 
 create_country_leader = {
-	name = "Placeholder"
+	name = "Antonio Guiteras Holmes"
 	desc = ""
-	picture = "Placeholder.png"
+	picture = "Antonio_Guiteras_Holmes.png"
 	expire = "1965.1.1"
-	ideology = communist_subtype
+	ideology = revolutionary_socialist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mario García Menocal"
+	desc = ""
+	picture = "Mario_Garcia_Menocal.png"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gerardo Machado"
+	desc = ""
+	picture = "Gerardo_Machado.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat
 	traits = {
 		#
 	}

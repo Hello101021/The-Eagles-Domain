@@ -28,6 +28,9 @@ ideologies = {
 			socialist_subtype = {}
 
 			democratic_socialist = {}
+			left_wing_populist = {}
+			revolutionary_socialist = {}
+			social_democrat = {}
 		}
 		dynamic_faction_names = {
 			#
@@ -51,6 +54,8 @@ ideologies = {
 	liberal = {
 		types = {
 			liberal_subtype = {}
+
+			social_liberal = {}
 		}
 		dynamic_faction_names = {
 			#
@@ -97,6 +102,10 @@ ideologies = {
 	authoritarian = {
 		types = {
 			authoritarian_subtype = {}
+
+			absolute_monarch = {}
+			authoritarian_democrat = {}
+			military_junta = {}
 		}
 		dynamic_faction_names = {
 			#
@@ -122,6 +131,7 @@ ideologies = {
 			ultranationalist_subtype = {}
 
 			british_fascist = {}
+			radical_islamist = {}
 		}
 		dynamic_faction_names = {
 			#

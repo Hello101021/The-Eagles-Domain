@@ -1,26 +1,59 @@
 ﻿capital = 318
 
 set_politics = {
-	ruling_party = communist
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communist = 17
-	socialist = 17
-	liberal = 17
-	conservative = 17
-	authoritarian = 16
-	ultranationalist = 16
+	communist = 13
+	socialist = 41
+	liberal = 5
+	conservative = 26
+	authoritarian = 15
+	ultranationalist = 0
 }
 
 create_country_leader = {
-	name = "Placeholder"
+	name = "Jacques Roumain"
 	desc = ""
-	picture = "Placeholder.png"
+	picture = "Jacques_Roumain.png"
 	expire = "1965.1.1"
 	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jean Price-Mars"
+	desc = ""
+	picture = "Jean_Price-Mars.png"
+	expire = "1965.1.1"
+	ideology = left_wing_populist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sténio Vincent"
+	desc = ""
+	picture = "Stenio_Vincent.png"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "John H. Russell Jr."
+	desc = ""
+	picture = "John_H_Russell_Jr.png"
+	expire = "1965.1.1"
+	ideology = military_junta
 	traits = {
 		#
 	}
